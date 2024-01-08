@@ -100,7 +100,7 @@ body {
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #00b386;
+  background: #78007c;
 }
 
 /*
@@ -161,7 +161,7 @@ body {
 
 #menu li:hover {
     transition: background-color .5s ease;
-    background-color: #00b386;
+    background-color: #78007c;
 }
 
 /*
@@ -238,16 +238,18 @@ body {
 }
 
 #header {
+    font-family: 'Fira Mono', monospace;
     /*position: relative;*/
     margin-top: 10px;
     display: block;
     height: 100px;
     width: 500px;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #slogan {
+    font-family: 'Fira Mono', monospace;
     margin-top: -20px;
     display: block;
     height: 100px;
@@ -263,7 +265,7 @@ body {
     width: 200px;
     margin-top: -30px;
     border: 2px solid;
-    border-color: #00b386;
+    border-color: #78007c;
     border-radius: 25px
 }
 

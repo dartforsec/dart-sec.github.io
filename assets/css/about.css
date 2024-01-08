@@ -7,6 +7,10 @@ body {
 	  background-color: transparent;
 }
 
+.interactive {
+    pointer-events: all;
+}
+
 .circle{
     background: black;
     width: 200px;
@@ -30,12 +34,40 @@ body {
       margin-left: -90px;
   }
 
+.aboutbody{
+  margin-top: 8em;
+}
+
+#header {
+  font-family: 'Fira Mono', monospace;
+  /*position: relative;*/
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  display: block;
+  height: 100px;
+  width: 500px;
+  color: white;
+  font-size: 2em;
+}
+
+#para {
+  font-family: 'Fira Mono', monospace;
+  /*position: relative;*/
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  height: 100px;
+  width: 10%;
+  color: black;
+  font-size: 1em;
+}
 
 #top_bar {
     width: 100%;
     height: 125px;
     top: 0 ;
-    background-color:  #00b386;
+    background-color:  #78007c;
 }
 
 #menuToggle
@@ -111,7 +143,7 @@ body {
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #00b386;
+  background: #78007c;
 }
 
 /*
@@ -172,7 +204,7 @@ body {
 
 #menu li:hover {
     transition: background-color .5s ease;
-    background-color: #00b386;
+    background-color: #78007c;
 }
 
 /*
